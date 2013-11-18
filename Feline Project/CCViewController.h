@@ -10,4 +10,21 @@
 
 @interface CCViewController : UIViewController
 
+@property (strong,nonatomic) NSMutableArray * felineObjectArray; 
+
+
+// Properties from my Image View of MainStoryboard
+
+
+@property (strong, nonatomic) IBOutlet UIImageView *felineImageView;
+
+@property (strong, nonatomic) IBOutlet UILabel *felineNameLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *felineDetailLabel;
+
+
+//Flexible bar Item for moving objects
+
+- (IBAction)felinesBarButtonItem:(UIBarButtonItem *)sender;
+
 @end

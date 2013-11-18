@@ -21,6 +21,12 @@
 		1C36D56B1837CEA3006B62DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C36D54D1837CEA3006B62DD /* UIKit.framework */; };
 		1C36D5731837CEA3006B62DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C36D5711837CEA3006B62DD /* InfoPlist.strings */; };
 		1C36D5751837CEA3006B62DD /* Feline_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C36D5741837CEA3006B62DD /* Feline_ProjectTests.m */; };
+		1C36D5811837CEC0006B62DD /* CCFeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C36D5801837CEC0006B62DD /* CCFeline.m */; };
+		1C36D5831837D072006B62DD /* siberian-lynx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C36D5821837D072006B62DD /* siberian-lynx.jpg */; };
+		1C36D5871837D64C006B62DD /* Puma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C36D5841837D64C006B62DD /* Puma.jpg */; };
+		1C36D5881837D64C006B62DD /* Jaguar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C36D5851837D64C006B62DD /* Jaguar.jpg */; };
+		1C36D5891837D64C006B62DD /* Tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C36D5861837D64C006B62DD /* Tiger.jpg */; };
+		1C93BE5F183A925D000456C5 /* black_panther_spain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C93BE5E183A925D000456C5 /* black_panther_spain.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		1C36D5701837CEA3006B62DD /* Feline ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Feline ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		1C36D5721837CEA3006B62DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C36D5741837CEA3006B62DD /* Feline_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Feline_ProjectTests.m; sourceTree = "<group>"; };
+		1C36D57F1837CEC0006B62DD /* CCFeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFeline.h; sourceTree = "<group>"; };
+		1C36D5801837CEC0006B62DD /* CCFeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFeline.m; sourceTree = "<group>"; };
+		1C36D5821837D072006B62DD /* siberian-lynx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "siberian-lynx.jpg"; sourceTree = "<group>"; };
+		1C36D5841837D64C006B62DD /* Puma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Puma.jpg; sourceTree = "<group>"; };
+		1C36D5851837D64C006B62DD /* Jaguar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jaguar.jpg; sourceTree = "<group>"; };
+		1C36D5861837D64C006B62DD /* Tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tiger.jpg; sourceTree = "<group>"; };
+		1C93BE5E183A925D000456C5 /* black_panther_spain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_panther_spain.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +95,7 @@
 		1C36D53D1837CEA3006B62DD = {
 			isa = PBXGroup;
 			children = (
+				1C36D57E1837CEAD006B62DD /* Feline Group */,
 				1C36D54F1837CEA3006B62DD /* Feline Project */,
 				1C36D56E1837CEA3006B62DD /* Feline ProjectTests */,
 				1C36D5481837CEA3006B62DD /* Frameworks */,
@@ -126,6 +140,11 @@
 		1C36D5501837CEA3006B62DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1C93BE5E183A925D000456C5 /* black_panther_spain.jpg */,
+				1C36D5841837D64C006B62DD /* Puma.jpg */,
+				1C36D5851837D64C006B62DD /* Jaguar.jpg */,
+				1C36D5861837D64C006B62DD /* Tiger.jpg */,
+				1C36D5821837D072006B62DD /* siberian-lynx.jpg */,
 				1C36D5511837CEA3006B62DD /* Feline Project-Info.plist */,
 				1C36D5521837CEA3006B62DD /* InfoPlist.strings */,
 				1C36D5551837CEA3006B62DD /* main.m */,
@@ -150,6 +169,15 @@
 				1C36D5711837CEA3006B62DD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C36D57E1837CEAD006B62DD /* Feline Group */ = {
+			isa = PBXGroup;
+			children = (
+				1C36D57F1837CEC0006B62DD /* CCFeline.h */,
+				1C36D5801837CEC0006B62DD /* CCFeline.m */,
+			);
+			name = "Feline Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +258,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C36D5621837CEA3006B62DD /* Images.xcassets in Resources */,
+				1C36D5831837D072006B62DD /* siberian-lynx.jpg in Resources */,
+				1C36D5871837D64C006B62DD /* Puma.jpg in Resources */,
 				1C36D5541837CEA3006B62DD /* InfoPlist.strings in Resources */,
 				1C36D55D1837CEA3006B62DD /* Main.storyboard in Resources */,
+				1C36D5881837D64C006B62DD /* Jaguar.jpg in Resources */,
+				1C93BE5F183A925D000456C5 /* black_panther_spain.jpg in Resources */,
+				1C36D5891837D64C006B62DD /* Tiger.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +285,7 @@
 			files = (
 				1C36D55A1837CEA3006B62DD /* CCAppDelegate.m in Sources */,
 				1C36D5561837CEA3006B62DD /* main.m in Sources */,
+				1C36D5811837CEC0006B62DD /* CCFeline.m in Sources */,
 				1C36D5601837CEA3006B62DD /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +495,7 @@
 				1C36D57A1837CEA3006B62DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C36D57B1837CEA3006B62DD /* Build configuration list for PBXNativeTarget "Feline ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +504,7 @@
 				1C36D57D1837CEA3006B62DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
